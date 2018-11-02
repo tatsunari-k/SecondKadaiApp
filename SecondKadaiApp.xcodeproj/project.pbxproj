@@ -12,6 +12,7 @@
 		8D4730E621889F5200487D4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4730E421889F5200487D4A /* Main.storyboard */; };
 		8D4730E821889F5200487D4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D4730E721889F5200487D4A /* Assets.xcassets */; };
 		8D4730EB21889F5200487D4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4730E921889F5200487D4A /* LaunchScreen.storyboard */; };
+		8D4730F32188A32C00487D4A /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4730F22188A32C00487D4A /* NameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8D4730E721889F5200487D4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D4730EA21889F5200487D4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D4730EC21889F5200487D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4730F22188A32C00487D4A /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8D4730E421889F5200487D4A /* Main.storyboard */,
 				8D4730E721889F5200487D4A /* Assets.xcassets */,
 				8D4730E921889F5200487D4A /* LaunchScreen.storyboard */,
+				8D4730F22188A32C00487D4A /* NameViewController.swift */,
 				8D4730EC21889F5200487D4A /* Info.plist */,
 			);
 			path = SecondKadaiApp;
@@ -138,6 +141,7 @@
 			files = (
 				8D4730E321889F5200487D4A /* ViewController.swift in Sources */,
 				8D4730E121889F5200487D4A /* AppDelegate.swift in Sources */,
+				8D4730F32188A32C00487D4A /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64K5AYF87L;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.tatsunari-k.SecondKadaiApp";
@@ -289,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64K5AYF87L;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.tatsunari-k.SecondKadaiApp";
